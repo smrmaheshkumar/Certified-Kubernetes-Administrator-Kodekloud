@@ -128,7 +128,7 @@
      <details>
 
       ```
-      apiVersion: extensions/v1beta1
+      apiVersion: networking.k8s.io/v1
       kind: Ingress
       metadata:
         name: ingress-wear-watch
@@ -141,13 +141,20 @@
         - http:
             paths:
             - path: /wear
+              pathType: Prefix
               backend:
-                serviceName: wear-service
-                servicePort: 8080
+                service:
+                 name: wear-service
+                 port: 
+                  number: 8080
             - path: /watch
+              pathType: Prefix
               backend:
-                serviceName: video-service
-                servicePort: 8080
+                service:
+                 name: video-service
+                 port:
+                  number: 8080
+
       ```
      </details>
 
