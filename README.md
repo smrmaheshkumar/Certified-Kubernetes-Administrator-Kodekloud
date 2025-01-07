@@ -8,35 +8,35 @@ These are notes from the [Certified Kubernetes Administrator Course](https://kod
 
   - [01-Course-Introduction](docs/01-Introduction/01-Course-Introduction.md)
   - [02-Certification](docs/01-Introduction/02-Certification.md)
-  
+
 
 - [02-Core-Concepts](docs/02-Core-Concepts)
 
   - [01-Core-Concepts-Section-Introduction](docs/02-Core-Concepts/01-Core-Concepts-Section-Introduction.md)
   - [02-Cluster-Architecture](docs/02-Core-Concepts/02-Cluster-Architecture.md)
-  - [03-ETCD-For-Beginners](docs/02-Core-Concepts/03-ETCD-For-Beginners.md)
-  - [04-ETCD-in-Kubernetes](docs/02-Core-Concepts/04-ETCD-in-Kubernetes.md)
-  - [05-Kube-API-Server](docs/02-Core-Concepts/05-Kube-API-Server.md)
-  - [06-Kube-Controller-Manager](docs/02-Core-Concepts/06-Kube-Controller-Manager.md)
-  - [07-Kube-Scheduler](docs/02-Core-Concepts/07-Kube-Scheduler.md)
-  - [08-Kubelet](docs/02-Core-Concepts/08-Kubelet.md)
-  - [09-Kube-Proxy](docs/02-Core-Concepts/09-Kube-Proxy.md)
-  - [10-Pods](docs/02-Core-Concepts/10-Pods.md)
-  - [11-Practice-Test-Introduction](docs/02-Core-Concepts/11-Practice-Test-Introduction.md)
-  - [12-Practice-Test-PODs](docs/02-Core-Concepts/12-Practice-Test-PODs.md)
-  - [13-ReplicaSets](docs/02-Core-Concepts/13-ReplicaSets.md)
-  - [14-Practice-Tests-ReplicaSet](docs/02-Core-Concepts/14-Practice-Tests-ReplicaSet.md)
-  - [15-Deployments](docs/02-Core-Concepts/15-Deployments.md)
-  - [16-Practice-Tests-Deployments](docs/02-Core-Concepts/16-Practice-Tests-Deployments.md)
-  - [17-Namespaces](docs/02-Core-Concepts/17-Namespaces.md)
-  - [18-Practice-Test-Namespaces](docs/02-Core-Concepts/18-Practice-Test-Namespaces.md)
-  - [19-Services](docs/02-Core-Concepts/19-Services.md)
-  - [20-Services-ClusterIP](docs/02-Core-Concepts/20-Services-ClusterIP.md)
-  - [21-Practice-Test-Services](docs/02-Core-Concepts/21-Practice-Test-Services.md)
-  - [22-Imperative-Commands-with-kubectl](docs/02-Core-Concepts/22-Imperative-Commands-with-kubectl.md)
-  - [23-Practice-Test-Imperative-Commands](docs/02-Core-Concepts/23-Practice-Test-Imperative-Commands.md)
-  - [24-Attachments](docs/02-Core-Concepts/24-Attachments.md)
-  
+  - [03-Docker-vs-ContainerD](docs/02-Core-Concepts/03-Docker-vs-ContainerD.md)
+  - [04-ETCD-For-Beginners](docs/02-Core-Concepts/04-ETCD-For-Beginners.md)
+  - [05-ETCD-in-Kubernetes](docs/02-Core-Concepts/05-ETCD-in-Kubernetes.md)
+  - [06-Kube-API-Server](docs/02-Core-Concepts/06-Kube-API-Server.md)
+  - [07-Kube-Controller-Manager](docs/02-Core-Concepts/07-Kube-Controller-Manager.md)
+  - [08-Kube-Scheduler](docs/02-Core-Concepts/08-Kube-Scheduler.md)
+  - [09-Kubelet](docs/02-Core-Concepts/09-Kubelet.md)
+  - [10-Kube-Proxy](docs/02-Core-Concepts/10-Kube-Proxy.md)
+  - [11-Pods](docs/02-Core-Concepts/11-Pods.md)
+  - [12-Practice-Test-Introduction](docs/02-Core-Concepts/12-Practice-Test-Introduction.md)
+  - [13-Practice-Test-PODs](docs/02-Core-Concepts/13-Practice-Test-PODs.md)
+  - [14-ReplicaSets](docs/02-Core-Concepts/14-ReplicaSets.md)
+  - [15-Practice-Tests-ReplicaSet](docs/02-Core-Concepts/15-Practice-Tests-ReplicaSet.md)
+  - [16-Deployments](docs/02-Core-Concepts/16-Deployments.md)
+  - [17-Practice-Tests-Deployments](docs/02-Core-Concepts/17-Practice-Tests-Deployments.md)
+  - [18-Namespaces](docs/02-Core-Concepts/18-Namespaces.md)
+  - [19-Practice-Test-Namespaces](docs/02-Core-Concepts/19-Practice-Test-Namespaces.md)
+  - [20-Services](docs/02-Core-Concepts/20-Services.md)
+  - [21-Services-ClusterIP](docs/02-Core-Concepts/21-Services-ClusterIP.md)
+  - [22-Practice-Test-Services](docs/02-Core-Concepts/22-Practice-Test-Services.md)
+  - [23-Imperative-Commands-with-kubectl](docs/02-Core-Concepts/23-Imperative-Commands-with-kubectl.md)
+  - [24-Practice-Test-Imperative-Commands](docs/02-Core-Concepts/24-Practice-Test-Imperative-Commands.md)
+  - [25-Attachments](docs/02-Core-Concepts/25-Attachments.md)
 
 - [03-Scheduling](docs/03-Scheduling)
 
@@ -44,7 +44,7 @@ These are notes from the [Certified Kubernetes Administrator Course](https://kod
   - [02-Manual-Scheduling](docs/03-Scheduling/02-Manual-Scheduling.md)
   - [03-Practice-Test-Manual-Scheduling](docs/03-Scheduling/03-Practice-Test-Manual-Scheduling.md)
   - [04-Labels-and-Selectors](docs/03-Scheduling/04-Labels-and-Selectors.md)
-  - [05-Practice-Test-Scheduling](docs/03-Scheduling/05-Practice-Test-Scheduling.md)
+  - [05-Practice-Test-Labels-and-Selectors](docs/03-Scheduling/05-Practice-Test-Labels-and-Selectors.md)
   - [06-Taints-and-Tolerations](docs/03-Scheduling/06-Taints-and-Tolerations.md)
   - [07-Practice-Test-Taints-and-Tolerations](docs/03-Scheduling/07-Practice-Test-Taints-and-Tolerations.md)
   - [08-Node-Selectors](docs/03-Scheduling/08-Node-Selectors.md)
@@ -71,7 +71,7 @@ These are notes from the [Certified Kubernetes Administrator Course](https://kod
   - [04-Managing-Application-Logs](docs/04-Logging-and-Monitoring/04-Managing-Application-Logs.md)
   - [05-Download-Presentation-Deck](docs/04-Logging-and-Monitoring/05-Download-Presentation-Deck.md)
   - [06-Practice-Test-Managing-Application-Logs](docs/04-Logging-and-Monitoring/06-Practice-Test-Managing-Application-Logs.md)
- 
+
 
 - [05-Application-Lifecycle-Management](docs/05-Application-Lifecycle-Management)
 
@@ -93,7 +93,7 @@ These are notes from the [Certified Kubernetes Administrator Course](https://kod
   - [16-Practice-Test-Init-Containers](docs/05-Application-Lifecycle-Management/16-Practice-Test-Init-Containers.md)
   - [17.Self-Healing-Applications](docs/05-Application-Lifecycle-Management/17.Self-Healing-Applications.md)
   - [18.Download-Presentation-Deck](docs/05-Application-Lifecycle-Management/18.Download-Presentation-Deck.md)
-  
+
 
 - [06-Cluster-Maintenance](docs/06-Cluster-Maintenance)
 
@@ -106,11 +106,12 @@ These are notes from the [Certified Kubernetes Administrator Course](https://kod
   - [07-Backup-and-Restore-Methods](docs/06-Cluster-Maintenance/07-Backup-and-Restore-Methods.md)
   - [08-Working-With-ETCDCTL](docs/06-Cluster-Maintenance/08-Working-With-ETCDCTL.md)
   - [09-Practice-Test-Backup-and-Restore-Methods](docs/06-Cluster-Maintenance/09-Practice-Test-Backup-and-Restore-Methods.md)
-  - [10-Download-Presentation-Deck](docs/06-Cluster-Maintenance/10-Download-Presentation-Deck.md)
-  
+  - [10-Practice-Test-Backup-and-Restore-Methods 2](docs/06-Cluster-Maintenance/10-Practice-Test-Backup-and-Restore-Methods-2.md)
+  - [11-Download-Presentation-Deck](docs/06-Cluster-Maintenance/11-Download-Presentation-Deck.md)
+
 
 - [07-Security](docs/07-Security)
-  
+
   - [01-Security-Section-Introduction](docs/07-Security/01-Security-Section-Introduction.md)
   - [02-Kubernetes-Security-Primitives](docs/07-Security/02-Kubernetes-Security-Primitives.md)
   - [03-Authentication](docs/07-Security/03-Authentication.md)
@@ -131,14 +132,14 @@ These are notes from the [Certified Kubernetes Administrator Course](https://kod
   - [18-Practice-Test-RBAC](docs/07-Security/18-Practice-Test-RBAC.md)
   - [19-Cluster-Roles](docs/07-Security/19-Cluster-Roles.md)
   - [20-Practice-Test-Cluster-Roles](docs/07-Security/20-Practice-Test-Cluster-Roles.md)
-  - [21-Image-Security](docs/07-Security/21-Image-Security.md)
-  - [22-Practice-Test-Image-Security](docs/07-Security/22-Practice-Test-Image-Security.md)
-  - [23-Security-Context](docs/07-Security/23-Security-Context.md)
-  - [24-Practice-Test-Security-Context](docs/07-Security/24-Practice-Test-Security-Context.md)
-  - [25-Network-Policies](docs/07-Security/25-Network-Policies.md)
-  - [26-Practice-Test-Network-Policies](docs/07-Security/26-Practice-Test-Network-Policies.md)
-  - [27-kubectx-and-kubens-commands](docs/07-Security/27-kubectx-and-kubens-commands.md)
-  - [28-Download-Presentation-Deck](docs/07-Security/28-Download-Presentation-Deck.md)
+  - [23-Image-Security](docs/07-Security/23-Image-Security.md)
+  - [24-Practice-Test-Image-Security](docs/07-Security/24-Practice-Test-Image-Security.md)
+  - [25-Security-Context](docs/07-Security/25-Security-Context.md)
+  - [26-Practice-Test-Security-Context](docs/07-Security/26-Practice-Test-Security-Context.md)
+  - [27-Network-Policies](docs/07-Security/27-Network-Policies.md)
+  - [28-Practice-Test-Network-Policies](docs/07-Security/28-Practice-Test-Network-Policies.md)
+  - [29-kubectx-and-kubens-commands](docs/07-Security/29-kubectx-and-kubens-commands.md)
+  - [30-Download-Presentation-Deck](docs/07-Security/30-Download-Presentation-Deck.md)
 
 
 - [08-Storage](docs/08-Storage)
@@ -159,13 +160,13 @@ These are notes from the [Certified Kubernetes Administrator Course](https://kod
 
 
 - [09-Networking](docs/09-Networking)
-  
+
   - [01-Networking-Introduction](docs/09-Networking/01-Networking-Introduction.md)
   - [02-Pre-requisite-Switching-Routing-Gateways](docs/09-Networking/02-Pre-requisite-Switching-Routing-Gateways.md)
   - [03-Pre-requisite-DNS](docs/09-Networking/03-Pre-requisite-DNS.md)
   - [04-Pre-requisite-CoreDNS](docs/09-Networking/04-Pre-requisite-CoreDNS.md)
   - [05-Pre-requisite-Network-Namespace](docs/09-Networking/05-Pre-requisite-Network-Namespace.md)
-  - [06-Pre-requisite-Docker-Networking](docs/09-Networking/06-Pre-requisite-Docker-Networking.mdd)
+  - [06-Pre-requisite-Docker-Networking](docs/09-Networking/06-Pre-requisite-Docker-Networking.md)
   - [07-Pre-requisite-CNI](docs/09-Networking/07-Pre-requisite-CNI.md)
   - [08-Cluster-Networking](docs/09-Networking/08-Cluster-Networking.md)
   - [09-Practice-Test-Explore-Env](docs/09-Networking/09-Practice-Test-Explore-Env.md)
@@ -176,7 +177,7 @@ These are notes from the [Certified Kubernetes Administrator Course](https://kod
   - [14-Practice-Test-Deploy-Network-Solution](docs/09-Networking/14-Practice-Test-Deploy-Network-Solution.md)
   - [15-ipam-weave](docs/09-Networking/15-ipam-weave.md)
   - [16-Practice-Test-Networking-weave](docs/09-Networking/16-Practice-Test-Networking-weave.md)
-  - [17-Service-Networking](17-Service-Networking.md)
+  - [17-Service-Networking](docs/09-Networking/17-Service-Networking.md)
   - [18-Practice-Test-Service-Networking](docs/09-Networking/18-Practice-Test-Service-Networking.md)
   - [19-DNS-in-kubernetes](docs/09-Networking/19-DNS-in-kubernetes.md)
   - [20-CoreDNS-in-Kubernetes](docs/09-Networking/20-CoreDNS-in-Kubernetes.md)
@@ -189,7 +190,7 @@ These are notes from the [Certified Kubernetes Administrator Course](https://kod
 
 
 - [10-Design-and-Install-Kubernetes-Cluster](docs/10-Design-and-Install-Kubernetes-Cluster)
-  
+
   - [01-Designing-a-Kubernetes-Cluster](docs/10-Design-and-Install-Kubernetes-Cluster/01-Designing-a-Kubernetes-Cluster.md)
   - [02-Choosing-Kubernetes-Infrastructure](docs/10-Design-and-Install-Kubernetes-Cluster/02-Choosing-Kubernetes-Infrastructure.md)
   - [03-Configure-High-Availability](docs/10-Design-and-Install-Kubernetes-Cluster/03-Configure-High-Availability.md)
@@ -198,16 +199,18 @@ These are notes from the [Certified Kubernetes Administrator Course](https://kod
   - [06-Download-Presentation-Deck](docs/10-Design-and-Install-Kubernetes-Cluster/06-Download-Presentation-Deck.md)
 
 - [11-Install-Kubernetes-the-kubeadm-way](docs/11-Install-Kubernetes-the-kubeadm-way)
-  
+
   - [01-Introduction-to-Deployment-with-kubeadm](docs/11-Install-Kubernetes-the-kubeadm-way/01-Introduction-to-Deployment-with-kubeadm.md)
   - [02-Resources](docs/11-Install-Kubernetes-the-kubeadm-way/02-Resources.md)
   - [03-Provision-VMs-with-Vagrant](docs/11-Install-Kubernetes-the-kubeadm-way/03-Provision-VMs-with-Vagrant.md)
   - [04-Demo-Deployment-with-Kubeadm](docs/11-Install-Kubernetes-the-kubeadm-way/04-Demo-Deployment-with-Kubeadm.md)
   - [05-Practice-Test-Deploy-Kubernetes-Cluster-using-Kubeadm](docs/11-Install-Kubernetes-the-kubeadm-way/05-Practice-Test-Deploy-Kubernetes-Cluster-using-Kubeadm.md)
+  - [BONUS 1 - Various kubeadm cluster configurations](./kubeadm-clusters) - Including for Apple M1/M2!
+  - [BONUS 2 - Installing Managed Clusters in Cloud Playgrounds](./managed-clusters/)
 
 
 - [12-Troubleshooting](docs/12-Troubleshooting)
-  
+
   - [01-Troubelshooting-Section-Introduction](docs/12-Troubleshooting/01-Troubelshooting-Section-Introduction.md)
   - [02-Application-Failure](docs/12-Troubleshooting/02-Application-Failure.md)
   - [03-Solution-Application-Failure](docs/12-Troubleshooting/03-Solution-Application-Failure.md)
@@ -220,7 +223,7 @@ These are notes from the [Certified Kubernetes Administrator Course](https://kod
   - [10-Practice-Test-Troubleshoot-Network](docs/12-Troubleshooting/10-Practice-Test-Troubleshoot-Network.md)
 
 - [13-Other-Topics](docs/13-Other-Topics)
-  
+
   - [01-Labs-JSON-PATH](docs/13-Other-Topics/01-Labs-JSON-PATH.md)
   - [02-Pre-Requisites-JSON-PATH](docs/13-Other-Topics/02-Pre-Requisites-JSON-PATH.md)
   - [03-Advance-Kubectl-Commands](docs/13-Other-Topics/03-Advance-Kubectl-Commands.md)
@@ -228,16 +231,23 @@ These are notes from the [Certified Kubernetes Administrator Course](https://kod
 
 
 - [14-Lightning-Labs](docs/14-Lightning-Labs)
-  
+
   - [01-Lightning-Labs-Introduction](docs/14-Lightning-Labs/01-Lightning-Labs-Introduction.md)
   - [02-Lightning-Lab-1](docs/14-Lightning-Labs/02-Lightning-Lab-1.md)
-  
+
 
 - [15-Mock-Exams](docs/15-Mock-Exams)
-  
+
   - [01-Introduction](docs/15-Mock-Exams/01-Introduction.md)
   - [02-Mock-Exam-1](docs/15-Mock-Exams/02-Mock-Exam-1.md)
   - [03-Mock-Exam-2](docs/15-Mock-Exams/03-Mock-Exam-2.md)
   - [04-CKA-MockExam-2-Solution](docs/15-Mock-Exams/04-CKA-MockExam-2-Solution.md)
   - [05-Mock-Exam-3](docs/15-Mock-Exams/05-Mock-Exam-3.md)
   - [06-CKA-MockExam-3-Solution](docs/15-Mock-Exams/06-CKA-MockExam-3-Solution.md)
+
+- [16-Ultimate-Mocks](docs/16-Ultimate-Mocks/)
+
+- [17-Tips-and-Tricks](docs/17-tips-and-tricks/)
+  - [01-Server for testing network policies](docs/17-tips-and-tricks/docs/01-server-for-testing-network-policies.md)
+  - [02-Client-for-testing-network-things](docs/17-tips-and-tricks/docs/02-client--for-testing-network-things.md)
+

@@ -127,11 +127,12 @@
  
         ```
         kubectl edit ingress --namespace app-space
- 
+        ```
         Change the path from /watch to /stream
     
         OR
  
+        ```yaml
         apiVersion: v1
         items:
         - apiVersion: extensions/v1beta1
@@ -198,11 +199,11 @@
 
       <details>
 
-       ```
-        Run the command 'kubectl edit ingress --namespace app-space' and add a new Path entry for the new service.
+        Run the command `kubectl edit ingress --namespace app-space` and add a new Path entry for the new service.
 
         OR
 
+       ```yaml
        apiVersion: v1
        items:
        - apiVersion: extensions/v1beta1
@@ -274,28 +275,27 @@
 
       <details>
 
+      ```yaml
+      apiVersion: networking.k8s.io/v1
+      kind: Ingress
+      metadata:
+        name: test-ingress
+        namespace: critical-space
+        annotations:
+          nginx.ingress.kubernetes.io/rewrite-target: /
+          nginx.ingress.kubernetes.io/ssl-redirect: "false"
+      spec:
+        rules:
+        - http:
+            paths:
+            - path: /pay
+              pathType: Prefix
+              backend:
+                service:
+                  name: pay-service
+                  port:
+                    number: 8282 
        ```
-        
-        apiVersion: networking.k8s.io/v1
-        kind: Ingress
-        metadata:
-          name: test-ingress
-          namespace: critical-space
-          annotations:
-            nginx.ingress.kubernetes.io/rewrite-target: /
-            nginx.ingress.kubernetes.io/ssl-redirect: "false"
-        spec:
-          rules:
-          - http:
-              paths:
-              - path: /pay
-                pathType: Prefix
-                backend:
-                  service:
-                   name: pay-service
-                   port:
-                    number: 8282
-        ```
         </details>
 
   23. Check the Solution
